@@ -1,0 +1,159 @@
+TnT Linear Regression
+R2: 0.5582979754897281
+Adjusted R2: 0.5564513951197019
+
+
+TnT Lasso Regression
+R2: 0.44938671435397193
+Adjusted R2: 0.44708481934709055
+
+
+TnT Ridge Regression
+R2: 0.5075506158529834
+Adjusted R2: 0.5054918809694258
+
+
+TnT Symbolic Regression
+R2: 0.4055135317932931
+Adjusted R2: 0.4030282204713588
+
+
+
+
+5x CV Average Performance Linear Regression
+R^2: 0.505137381308234
+Adjusted R^2: 0.5030693014796084
+
+
+Linear Regression Statistical Summaries (Actual vs Predicted)
+         Predicted
+count  1503.000000
+mean    124.839634
+std       4.959092
+min     102.987322
+25%     121.793359
+50%     125.047570
+75%     128.383623
+max     137.229456
+Actual
+count    1503.000000
+mean      124.835943
+std         6.898657
+min       103.380000
+25%       120.191000
+50%       125.721000
+75%       129.995500
+max       140.987000
+Name: Decibels, dtype: float64
+----------------------------------------------------------------------
+
+
+5x CV Average Performance Lasso Regression
+R^2: 0.44140175713256646
+Adjusted R^2: 0.4390673040655978
+
+
+Lasso Regression Statistical Summaries (Actual vs Predicted)
+         Predicted
+count  1503.000000
+mean    124.837290
+std       4.070348
+min     104.314017
+25%     122.555365
+50%     125.226858
+75%     127.544448
+max     135.685647
+Actual
+count    1503.000000
+mean      124.835943
+std         6.898657
+min       103.380000
+25%       120.191000
+50%       125.721000
+75%       129.995500
+max       140.987000
+Name: Decibels, dtype: float64
+----------------------------------------------------------------------
+
+
+5x CV Average Performance Ridge Regression
+R^2: 0.47777017829529383
+Adjusted R^2: 0.4755877219210314
+
+
+Ridge Regression Statistical Summaries (Actual vs Predicted)
+         Predicted
+count  1503.000000
+mean    124.837258
+std       4.575665
+min     102.814782
+25%     122.100256
+50%     124.997814
+75%     127.864746
+max     137.452029
+Actual
+count    1503.000000
+mean      124.835943
+std         6.898657
+min       103.380000
+25%       120.191000
+50%       125.721000
+75%       129.995500
+max       140.987000
+Name: Decibels, dtype: float64
+----------------------------------------------------------------------
+
+
+5x CV Average Performance Symbolic Regression
+R^2: 0.21751341772257277
+Adjusted R^2: 0.21424332540997448
+
+
+Ridge Regression Statistical Summaries (Actual vs Predicted)
+         Predicted
+count  1503.000000
+mean    124.837258
+std       4.575665
+min     102.814782
+25%     122.100256
+50%     124.997814
+75%     127.864746
+max     137.452029
+Actual
+count    1503.000000
+mean      124.835943
+std         6.898657
+min       103.380000
+25%       120.191000
+50%       125.721000
+75%       129.995500
+max       140.987000
+Name: Decibels, dtype: float64
+
+
+---------- Best performances below ----------
+---------------------------------------------
+Column combination
+['Frequency', 'Angle', 'Chord', 'Velocity', 'Displacement']
+R2: 0.5582979754897281
+---------------------------------------------
+Column combination
+['Frequency', 'Angle', 'Chord', 'Velocity', 'Displacement']
+Adjusted R2: 0.5564513951197019
+---------------------------------------------
+Column combination
+['Frequency', 'Angle', 'Chord', 'Velocity', 'Displacement']
+CV R2: 0.4879537938212117
+---------------------------------------------
+Mean Squared Error
+22.128643318247295
+---------------------------------------------
+Sum of Squared Error
+6660.721638792436
+---------------------------------------------
+Root Mean Squared Error
+4.7041091949748886
+---------------------------------------------
+Mean Absolute Error
+22.128643318247295
+---------------------------------------------
